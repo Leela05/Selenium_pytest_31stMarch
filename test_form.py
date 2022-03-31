@@ -24,6 +24,6 @@ def test_form(setUp):
     time.sleep(2)
     driver.find_element_by_xpath("/html/body/div/div/div[2]/form/table/tbody/tr[4]/td[2]/div/input").click()
     time.sleep(2)
-    driver.find_element_by_name("submit").click()
+    driver.find_element_by_name("subbtn").click()
     time.sleep(2)
 
